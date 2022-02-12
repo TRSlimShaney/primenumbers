@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Count="2" Active="Release">
+      <Item1 Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="primenumbers"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <VerifyObjMethodCallValidity Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2Set"/>
+              <UseHeaptrc Value="True"/>
+              <TrashVariables Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+          </Linking>
+        </CompilerOptions>
+      </Item1>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="primenumbers"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-CfAVX
+-CpCOREAVX"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="primenumbers.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="16" Y="17"/>
+        <UsageCount Value="39"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="semaphore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Semaphore"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos Y="76"/>
+        <UsageCount Value="28"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="primethread.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PrimeThread"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="53" Y="8"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\fpc\3.2.0\source\rtl\objpas\fgl.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="901"/>
+        <CursorPos Y="930"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\components\multithreadprocs\mtprocs.pas"/>
+        <UnitName Value="MTProcs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="713"/>
+        <CursorPos Y="741"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="82" TopLine="35"/>
+      </Position1>
+      <Position2>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="84" TopLine="37"/>
+      </Position2>
+      <Position3>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="85" TopLine="38"/>
+      </Position3>
+      <Position4>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="86" TopLine="39"/>
+      </Position4>
+      <Position5>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="92" TopLine="46"/>
+      </Position5>
+      <Position6>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="93" TopLine="47"/>
+      </Position6>
+      <Position7>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="98" TopLine="52"/>
+      </Position7>
+      <Position8>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="99" TopLine="53"/>
+      </Position8>
+      <Position9>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="100" TopLine="54"/>
+      </Position9>
+      <Position10>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="84" TopLine="54"/>
+      </Position10>
+      <Position11>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="103" TopLine="57"/>
+      </Position11>
+      <Position12>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="104" TopLine="58"/>
+      </Position12>
+      <Position13>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="103" TopLine="58"/>
+      </Position13>
+      <Position14>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="107" TopLine="61"/>
+      </Position14>
+      <Position15>
+        <Filename Value="primethread.pas"/>
+        <Caret Line="51" TopLine="6"/>
+      </Position15>
+      <Position16>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="46" TopLine="43"/>
+      </Position16>
+      <Position17>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="103" TopLine="75"/>
+      </Position17>
+      <Position18>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="104" TopLine="75"/>
+      </Position18>
+      <Position19>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="103" TopLine="75"/>
+      </Position19>
+      <Position20>
+        <Filename Value="primethread.pas"/>
+        <Caret Line="39" Column="19" TopLine="6"/>
+      </Position20>
+      <Position21>
+        <Filename Value="primethread.pas"/>
+        <Caret Line="17" Column="17"/>
+      </Position21>
+      <Position22>
+        <Filename Value="primethread.pas"/>
+        <Caret Line="23" Column="29"/>
+      </Position22>
+      <Position23>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="103" TopLine="75"/>
+      </Position23>
+      <Position24>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="104" TopLine="75"/>
+      </Position24>
+      <Position25>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="103" TopLine="75"/>
+      </Position25>
+      <Position26>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="107" TopLine="75"/>
+      </Position26>
+      <Position27>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="108" TopLine="75"/>
+      </Position27>
+      <Position28>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="125" TopLine="74"/>
+      </Position28>
+      <Position29>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="108" Column="34" TopLine="74"/>
+      </Position29>
+      <Position30>
+        <Filename Value="primenumbers.lpr"/>
+        <Caret Line="121" Column="21" TopLine="83"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1" ActiveMode="default">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="-l 100000 -t 1"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
