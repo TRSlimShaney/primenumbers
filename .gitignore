@@ -1,0 +1,8 @@
+
+lib/x86_64-win64/semaphore.ppu
+lib/x86_64-win64/semaphore.o
+lib/x86_64-win64/primethread.ppu
+lib/x86_64-win64/primethread.o
+lib/x86_64-win64/primenumbers.o
+lib/x86_64-win64/primenumbers.compiled
+backup/primenumbers.lps.bak
